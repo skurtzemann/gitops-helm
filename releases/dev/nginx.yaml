@@ -10,4 +10,6 @@ spec:
   chartGitPath: nginx-ingress
   releaseName: nginx-ingress-dev
   values:
-    image: "0"
+    lb:
+      controller:
+        kind: DaemonSet
