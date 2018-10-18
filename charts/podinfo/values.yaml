@@ -49,3 +49,6 @@ tolerations: []
 affinity: {}
 
 logLevel: debug
+
+redis:
+  enabled: false
