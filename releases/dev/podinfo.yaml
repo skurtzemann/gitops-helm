@@ -12,6 +12,6 @@ spec:
   releaseName: podinfo-dev
   values:
     image: skurtzemann/podinfo:dev-g1dug8mv
-    replicaCount: 1
+    replicaCount: 2
     hpa:
       enabled: false
