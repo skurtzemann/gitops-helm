@@ -15,3 +15,5 @@ spec:
     replicaCount: 2
     hpa:
       enabled: false
+    redis:
+      enabled: true
