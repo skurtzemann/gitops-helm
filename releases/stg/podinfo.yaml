@@ -11,7 +11,7 @@ spec:
   chartGitPath: podinfo
   releaseName: podinfo-rc
   values:
-    image: skurtzemann/podinfo:staging-dz00orng
+    image: skurtzemann/podinfo:staging-nolftgkr
     replicaCount: 2
     hpa:
       enabled: true
