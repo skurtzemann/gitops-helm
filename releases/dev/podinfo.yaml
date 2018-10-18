@@ -11,7 +11,7 @@ spec:
   chartGitPath: podinfo
   releaseName: podinfo-dev
   values:
-    image: skurtzemann/podinfo:dev-g1dug8mv
+    image: skurtzemann/podinfo:dev-fktf5qlf
     replicaCount: 2
     hpa:
       enabled: false
