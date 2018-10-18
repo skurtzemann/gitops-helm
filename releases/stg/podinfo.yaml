@@ -5,7 +5,7 @@ metadata:
   name: podinfo-rc
   namespace: stg
   annotations:
-    flux.weave.works/automated: "true"
+    flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: glob:staging-*
 spec:
   chartGitPath: podinfo
